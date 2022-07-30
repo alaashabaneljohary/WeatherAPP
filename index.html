@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="weather forecast ">
+    <meta name="keywords" content="HTML, CSS, JAVASCRIPT, JSON, API">
+    <title>Weather forecast</title>
+    <!-- Weather Icon -->
+    <link rel="shortcut icon" href="images/weather icon.png" type="image/x-icon">
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+    <!-- File CSS -->
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+<main>
+<header>
+    <div class="m-auto w-50 py-5">
+        <input type="text" class="w-100 py-2 rounded-5 form-control" id="searchInput" placeholder=" Search City...">
+    </div>
+ <div class="container">
+  <div class="row pt-5 g-3">
+    <div class="col-md-4 col-lg-3  card">
+      <div class="card-header d-flex justify-content-between">
+        <div id="day">sunday</div>
+        <div id="dateOfMonth">3 april</div>
+      </div>
+      <div class="card-Body py-5">
+        <div id="location"></div>
+       <div class="d-flex justify-content-between">
+        <div>
+            <h2 id="today-degree" class="d-inline-block"></h2>
+            <h2 class="d-inline-block"><sup>o</sup>C</h2>
+            </div>
+            <img id="today-icon"  width="90" />
+       </div>
+        <h6 id="condition-text" class="mb-4"></h6>
+
+        <div id="todayDetails">
+            <i class="fas fa-umbrella pr-1"></i>
+            <span id="humidty"></span> <span>%</span>
+
+            <i class="fas fa-wind pl-3 pr-1"></i>
+            <span id="windKph"></span> <span>km/h</span>
+
+            <i class="far fa-compass pl-3 pr-1"></i>
+            <span id="windDir"></span>  
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4 col-lg-3 offset-lg-1 card ">
+        <div class="card-header">
+            <div class="nextDay">Tuesday</div>
+          </div>
+          <div class="card-Body py-5">
+           <div class="text-center">
+         
+                <img class="nextToday-icon d-block mx-auto"  width="90" />
+                <h2 class="maxtemp d-inline-block"><h2 class="d-inline-block"><sup>o</sup>C</h2></h2>
+                
+
+                <div>
+                <h6  class="d-inline-block mintemp"></h6>
+                <h6 class="d-inline-block"><sup>o</sup>C</h6>
+                </div>
+           </div>
+            <h6  class="mb-4 nextCondition-text text-center mt-3"></h6>
+    
+           
+          </div>
+    </div>
+    <div class="col-md-4 col-lg-3 offset-lg-1 card ">
+        <div class="card-header">
+            <div class="nextDay">Tuesday</div>
+          </div>
+          <div class="card-Body py-5">
+           <div class="text-center">
+         
+                <img class="nextToday-icon d-block mx-auto"  width="90" />
+                <h2 class="maxtemp d-inline-block"><h2 class="d-inline-block"><sup>o</sup>C</h2></h2>
+                
+
+                <div>
+                <h6  class="d-inline-block mintemp"></h6>
+                <h6 class="d-inline-block"><sup>o</sup>C</h6>
+                </div>
+           </div>
+            <h6  class="mb-4 nextCondition-text text-center mt-3"></h6>
+    
+           
+          </div>
+    </div>
+  </div>
+ </div>
+</header>
+</main>    
+<main>
+<footer>
+ <div>Copyright © 2021 Designed by Alaa Shaban. All rights reserved</div>   
+</footer>    
+</main>
+
+
+    <!-- SCript File -->
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/bootstrap.bundle.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,62 @@
+/* Start Global Roules */
+body 
+{
+    font-family: 'Open Sans', sans-serif;
+}
+/* End Global Roules */
+
+/* Start Section  Header */
+header
+{
+    background: url(../images/bg-weather.jpg)rgba(0,0,0,0.5);
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: 100% 100%;
+    background-size: cover;
+    background-attachment: fixed;
+    background-blend-mode: multiply;
+    position: relative;
+    padding: 50px 0;
+}
+header .card 
+{
+    padding: 20px;
+    background: transparent;
+    color: #FFF;
+    box-shadow: inset #fff 3px 4px 10px;
+    border: 2px solid #FFF;
+}
+header .card-header .nextDay 
+{
+    text-align: center !important;
+}
+
+header .card .card-header
+{
+ background-color: #3199ab;
+ padding: 20px 10px;
+ text-transform: uppercase;
+ font-weight: 800;
+}
+header .card .card-Body #location
+{
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 30px;
+    text-shadow: #3199ab 2px 3px 4px;
+}
+header .card .card-Body #today-degree
+{
+    font-size: 50px;
+}
+/* End Section  Header */
+/* Start Section Footer */
+footer
+{
+    background-color: steelblue ;
+    text-align: center;
+    color: #FFF;
+    padding: 10px 0;
+}
+/* End Section Footer */
